@@ -1,6 +1,6 @@
-# swissherdbook
+# Data preparation for a prognostic management tool
 
-Data preparation for A prognostic management tool for the prediction of artificial insemination success in dairy cows
+Data preparation for a prognostic management tool for the prediction of artificial insemination success in dairy cows
 
 The five R scripts are used to prepare the necessary dataset. The data is be selected, cleaned, features are generated and the data is standardized with these skripts.
 
