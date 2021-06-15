@@ -16,4 +16,4 @@ The R scripts must be run one after the other.
 
 **5. MBA_Zusammfügen&Balancieren.R:** Finally, the data is merged and balanced.
 
-This final dataset can then be further used to generate a ML model to predict artificial insemination success, for example with the Modulos Auto ML Platofrm. 
+This final dataset can then be further used to generate a ML model to predict artificial insemination success, for example with the Modulos Auto ML Platform. 
