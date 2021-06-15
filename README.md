@@ -19,4 +19,4 @@ With this script the previous milk sample is searched for each insemination. Thi
 5_MBA_Zusammfügen&Balancieren.R:
 Finally, the data is merged and balanced.
 
-This dataset can then be further used to generate an ML model to predict artificial insemination success, for example with the Modulos Auto ML Platofrm. 
+This dataset can then be further used to generate a ML model to predict artificial insemination success, for example with the Modulos Auto ML Platofrm. 
