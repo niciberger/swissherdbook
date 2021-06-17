@@ -1,6 +1,6 @@
 # Data preparation for a prognostic management tool
 
-Data preparation for a prognostic management tool for the prediction of artificial insemination success in dairy cows. The five R scripts are used to prepare the necessary dataset. The data is be selected, cleaned, features are generated and the data is standardized with these skripts. The scripts use standardized data exports from ArgusQ (QualitasAG) according the RindviehCH data interface. Hence, all necessary source data must be exported from ArgusQ first.
+Data preparation for a prognostic management tool for the prediction of artificial insemination success in dairy cows. The five R scripts are used to prepare the necessary dataset. The data is selected, cleaned, the features are generated and the data is standardized with these scripts. The scripts use standardized data exports from ArgusQ (Qualitas AG) according to the RindviehCH data interface. Hence, all necessary source data must first be exported from ArgusQ.
 
 ## Instructions
 
@@ -12,7 +12,7 @@ The R scripts must be run one after the other.
 
 **3. MBA_Datenbereitstellung_Besamungen.R:** Insemination data is selected, cleaned, features are generated and the data is standardized.
 
-**4. MBA_JoinBesamungnMP.R:** With this script the previous milk sample is searched for each insemination. This is done with a programming loop, for performance reasons no more than 100'000 insemaintons records should be processed at once. 
+**4. MBA_JoinBesamungnMP.R:** With this script previous milk sample is searched for each insemination. This is done with a programming loop, for performance reasons no more than 100'000 insemaintons records should be processed at once. 
 
 **5. MBA_Zusammfügen&Balancieren.R:** Finally, the data is merged and balanced.
 
